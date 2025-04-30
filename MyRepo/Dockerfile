@@ -10,6 +10,8 @@ COPY . .
 # Install dependencies
 RUN pip install --no-cache-dir flask
 
+RUN ls
+
 # Expose the port Flask will listen on
 EXPOSE 80
 
